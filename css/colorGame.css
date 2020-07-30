@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(252, 246, 232);
+    font-family: "Montserrat", "Avenir";
+    text-transform: uppercase;
+}
+
+h1 {
+    margin: 0;
+    padding: 5px 0px;
+    font-size: 50px;
+    text-align: center;
+    background: #F4976C;
+    color: white;
+}
+
+h3 {
+    margin: 0;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 800;
+    text-align: center;
+    background: white;
+    color: #F4976C;
+}
+
+#easy:hover, #hard:hover, #newColors:hover {
+    background: #F4976C;
+    color: white;
+    transition: all 0.25s;
+    /* more browser support: webkit is for safari, moz is for firefox */
+    -webkit-transition: all 0.25s;
+    -moz-transition: all 0.25s;
+}
+
+.selected {
+    background: #F4976C;
+    color: white;
+}
+
+.square {
+    margin: 1.66%;
+    padding-bottom: 30%;
+    width: 30%;
+    float: left;
+    border-radius: 10%;
+    transition: opacity 0.2s;
+    /* more browser support: webkit is for safari, moz is for firefox */
+    -webkit-transition: opacity 0.2s;
+    -moz-transition: opacity 0.2s;
+}
+
+.transparent {
+    opacity: 0.0;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
