@@ -6,5 +6,4 @@ Given a set of six different colored squares and an RGB value, pick the correct 
 
 ## Gameplay
 
-```
 Download and click index.html to play or click [here](https://megatron-lab.github.io/RGB-Color-Game/)
